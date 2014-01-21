@@ -69,10 +69,10 @@ int main(int argc, char **argv)
 } // main
 
 
-int bits[250], data[100];
-int bitidx = 0;
 
 int readDHT(int type, int pin) {
+  int bits[250], data[100];
+  int bitidx = 0;
   int counter = 0;
   int laststate = HIGH;
   int j=0;
